@@ -1,5 +1,37 @@
+/* Universal rules */
+
+
+/* body, input, button start */
+
 body, input, button {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
+}
+
+/* Google search bar start */
+
+#google-logo-container {
+    display: flex;
+}
+
+/* Why does display flex for the #search-container allow the #googlelogo to be centered?
+If the default setting for images is inline-block, does this mean you need flex to center items?
+Is it also possible with block or other formats? Why?
+
+Also, does it matter if the #google-logo-container is defined as an id versus a class? 
+Could I also have just made #googlelogo itself its own flex container or is it better to split
+like this and having a parent and then have children?
+
+Should I have merged the other logos/images into this one flex parent?*/
+
+#googlelogo {
+    height: 92px;
+    width: 272px;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.googlesearch {
+    height: auto;
 }
