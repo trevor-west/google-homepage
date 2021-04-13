@@ -32,6 +32,32 @@ Should I have merged the other logos/images into this one flex parent?*/
     padding-top: 200px;
 }
 
+.googleicons {
+    display: flex;
+    flex-direction: row;
+}
+
+#appsicon {
+    display: flex;
+    height: 24px;
+    width: 24px;
+    align-content: flex-end;
+}
+
+#micicon {
+    height: 24px;
+    width: 24px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#searchicon {
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+
 .googlesearch {
     height: auto;
 }
