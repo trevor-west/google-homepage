@@ -59,5 +59,9 @@ Should I have merged the other logos/images into this one flex parent?*/
 }
 
 .googlesearch {
-    height: auto;
+    display: inline-block;
+    height: 100px;
+    width: auto;
+    margin: auto;
+    padding-left: 800px;
 }
