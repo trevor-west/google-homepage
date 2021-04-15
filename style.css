@@ -3,14 +3,6 @@ body, a, p {
     font-family: arial,sans-serif;
 }
 
-/* body, input, button start */
-
-body, input, button {
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #222;
-}
-
 /* Google search bar start */
 
 #google-logo-container {
@@ -39,6 +31,10 @@ Should I have merged the other logos/images into this one flex parent?*/
 
 .top-nav {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 .top-nav #signin-button {
@@ -56,6 +52,15 @@ Should I have merged the other logos/images into this one flex parent?*/
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.header .tlicon {
+    color: #222;
+    margin-left: 15px;
+}
+
+.gmim {
+    color: rgba(0,0,0,0.87);
 }
 
 /* Couldn't find hover css on google so mirrored the search hover css (i.e., ".googlesearch button:hover") and adjusted colors accordingly*/
@@ -133,21 +138,48 @@ Should I have merged the other logos/images into this one flex parent?*/
     color: #222;
 }
 
+/* body, input, button start */
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
 /* Footer start */
 
 .footer {
-    display: block;
     bottom: 0;
     font-size: 10pt;
-    height: 35px;
     position: fixed;
     width: 100%;
 }
 
 #footer-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background: #f2f2f2;
     line-height: 40px;
     min-width: 980px;
     border-top: 1px solid #e4e4e4;
     font-size: 14px;
+    padding: 0 20px
 }
+
+.footer-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-space {
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#footer-bar .footer-item a {
+    text-decoration: none;
+}
+
