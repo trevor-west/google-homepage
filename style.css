@@ -1,5 +1,7 @@
 /* Universal rules */
-
+body, a, p {
+    font-family: arial,sans-serif;
+}
 
 /* body, input, button start */
 
@@ -64,4 +66,23 @@ Should I have merged the other logos/images into this one flex parent?*/
     width: auto;
     margin: auto;
     padding-left: 800px;
+}
+
+/* Footer start */
+
+.footer {
+    display: block;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+}
+
+#footer-bar {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
 }
