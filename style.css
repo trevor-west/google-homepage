@@ -34,6 +34,46 @@ Should I have merged the other logos/images into this one flex parent?*/
     padding-top: 200px;
 }
 
+
+/* Header navbar start */
+
+.top-nav {
+    display: flex;
+}
+
+.top-nav #signin-button {
+    background-color: #1a73e8;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #fff;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Couldn't find hover css on google so mirrored the search hover css (i.e., ".googlesearch button:hover") and adjusted colors accordingly*/
+
+.top-nav #signin-button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-image: -webkit-linear-gradient(top,#1a73e8,#1d78ee);
+    background-color: #1a73e8;
+    border: 1px solid #c6c6c6;
+    color: #fff;
+}
+
+.roboto-small {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+/* Header navbar end */
+
 .googleicons {
     display: flex;
     flex-direction: row;
@@ -61,11 +101,36 @@ Should I have merged the other logos/images into this one flex parent?*/
 }
 
 .googlesearch {
-    display: inline-block;
+    display: block;
     height: 100px;
     width: auto;
     margin: auto;
     padding-left: 800px;
+}
+
+.googlesearch button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.googlesearch button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 /* Footer start */
