@@ -36,21 +36,30 @@
             <img src="resources/googlelogo.png" id="googlelogo">
         </div>
 
-
+    <div class="googlesearcharea">
         <!-- Google Search Form | form action is intentionally blank (nowhere to send data to) -->
         <form action="/search" method="GET" role="search" class="googlesearch">
-            <div class="searchbar"></div>
-                <input type="text" placeholder="" class="searchinput">
-                    <div class="searchbaricons">
-                        <img src="resources/outline_mic_black_24dp.png" id="micicon">
-                        <img src="resources/outline_search_black_24dp.png" id="searchicon"> 
+            <div class="searcharea1">
+                <div class="center">
+                    <div class="searchbar">
+                        <div class="searchbararea">
+                            <div class="searchbaricon-mic">
+                                <img src="resources/outline_mic_black_24dp.png" id="micicon">
+                            </div>
+                            <div class="searchbaricon-search">
+                                <img src="resources/outline_search_black_24dp.png" id="searchicon"> 
+                            </div>
+                            <input type="text" placeholder="" class="searchinput">
+                        </div>
                     </div>
-            </div>
-            <div class="searchbutton-area">
-                <button type="submit" class="searchbutton">Google Search</button>
-                <button type="submit" class="searchbutton">I'm Feeling Lucky</button> <!-- This will need to load the first link result on SERPs | is this different from type="submit"? -->
+                    <div class="searchbutton-area">
+                        <button type="submit" class="searchbutton">Google Search</button>
+                        <button type="submit" class="searchbutton">I'm Feeling Lucky</button> <!-- This will need to load the first link result on SERPs | is this different from type="submit"? -->
+                    </div>
+                </div>
             </div>
         </form>
+    </div>
 
         <!-- Footer start -->
         <footer class="footer">
