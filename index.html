@@ -31,28 +31,26 @@
             </nav>
         </header>
 
-        <!-- Google Search bar -->
-        <div id="google-search-bar">
-
-            <!-- Google Logo and Google Search Form Icons -->
-            <div id="google-logo-container">
-                <img src="resources/googlelogo.png" id="googlelogo">
-            </div>
-            
-            <!-- Google Search Form | form action is intentionally blank (nowhere to send data to) -->
-            <form action="" class="googlesearch">
-                <input type="text" placeholder="">
-                <button type="submit">Google Search</button>
-                <button type="submit">I'm Feeling Lucky</button> <!-- This will need to load the first link result on SERPs | is this different from type="submit"? -->
-
-            <!-- Related Google icons -->
-            <div class="googleicons">
-                <img src="resources/outline_mic_black_24dp.png" id="micicon">
-                <img src="resources/outline_search_black_24dp.png" id="searchicon">
-            </div>
+        <!-- Google Logo -->
+        <div id="google-logo-container">
+            <img src="resources/googlelogo.png" id="googlelogo">
         </div>
-            
-        </div>
+
+
+        <!-- Google Search Form | form action is intentionally blank (nowhere to send data to) -->
+        <form action="/search" method="GET" role="search" class="googlesearch">
+            <div class="searchbar"></div>
+                <input type="text" placeholder="" class="searchinput">
+                    <div class="searchbaricons">
+                        <img src="resources/outline_mic_black_24dp.png" id="micicon">
+                        <img src="resources/outline_search_black_24dp.png" id="searchicon"> 
+                    </div>
+            </div>
+            <div class="searchbutton-area">
+                <button type="submit" class="searchbutton">Google Search</button>
+                <button type="submit" class="searchbutton">I'm Feeling Lucky</button> <!-- This will need to load the first link result on SERPs | is this different from type="submit"? -->
+            </div>
+        </form>
 
         <!-- Footer start -->
         <footer class="footer">
@@ -60,7 +58,7 @@
                 <span class="footer-item" id="4-left">
                     <a class="item-space" href="">Advertising</a>
                     <a class="item-space" href="">Business</a>
-                    <a class="item-space" href="">How Search Works</a>
+                    <a class="item-space" href="">How Search works</a>
                 </span>
                 <span class="footer-item" id="3-right">
                     <a class="item-space" href="">Privacy</a>
