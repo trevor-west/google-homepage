@@ -118,14 +118,11 @@ Should I have merged the other logos/images into this one flex parent?*/
 }
 
 .center {
-        width: auto;
         max-width: 584px;
         position: relative;
         margin: 0 auto;
         padding-top: 6px;
-        width: 484px;
         width: auto;
-        max-width: 484px;
 }
 
 .searchbar {
@@ -141,8 +138,22 @@ Should I have merged the other logos/images into this one flex parent?*/
     max-width: 584px;
 }
 
-.searchbararea {
-    
+.searchiconbox {
+    line-height: 65px;
+    padding-left: 10px;
+}
+
+img#searchicon {
+    width: 20px;
+}
+
+.miciconbox {
+    line-height: 65px;
+    padding-right: 90px;
+}
+
+img#micicon {
+    width: 20px;
 }
 
 .inner-searchbar {
