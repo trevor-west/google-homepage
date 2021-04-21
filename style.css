@@ -37,6 +37,12 @@ Should I have merged the other logos/images into this one flex parent?*/
     align-items: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 .top-nav #signin-button {
     background-color: #1a73e8;
     border: 1px solid #f8f9fa;
@@ -54,10 +60,6 @@ Should I have merged the other logos/images into this one flex parent?*/
     user-select: none;
 }
 
-.header .tlicon {
-    color: #222;
-    margin-left: 15px;
-}
 
 .gmim {
     color: rgba(0,0,0,0.87);
@@ -236,12 +238,6 @@ body, input, button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.item-space {
-    padding: 15px;
-    white-space: nowrap;
-    text-decoration: none;
 }
 
 #footer-bar .footer-item a {
