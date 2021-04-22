@@ -43,6 +43,32 @@ ul {
     padding: 0;
   }
 
+ul li {
+    margin-right: 20px;
+}
+
+ul.left-nav {
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 26px;
+    margin-top: -9px;
+}
+
+ul.right-nav {
+    display: flex;
+    margin-top: 15px;
+}
+
+li.signin-button-general {
+    margin-top: -5px;
+}
+
+li.roboto-small.gmim {
+    margin-right: 15px;
+}
+
 .top-nav #signin-button {
     background-color: #1a73e8;
     border: 1px solid #f8f9fa;
@@ -50,8 +76,7 @@ ul {
     color: #fff;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
+    padding: 0 27px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
@@ -86,11 +111,9 @@ ul {
     flex-direction: row;
 }
 
-#appsicon {
-    display: flex;
-    height: 24px;
-    width: 24px;
-    align-content: flex-end;
+li#appsicon {
+    padding-left: 15px;
+    /* padding-top: 1px; */
 }
 
 .searchbaricon-mic {
