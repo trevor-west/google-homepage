@@ -127,6 +127,8 @@ li#appsicon {
     padding: 0 8px;
     width: 24px;
     line-height: 44px;
+    margin-left: 535px;
+    margin-top: -47px;
 }
 
 .searchbaricon-search {
@@ -191,17 +193,23 @@ img#micicon {
 input.searchinput {
     background-color: transparent;
     border: none;
-    margin: 0;
-    padding: 0;
+    padding: 2px;
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
     outline: none;
     display: flex;
     flex: 100%;
-    -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
+    margin-top: -56px;
+    margin-left: 35px;
     height: 34px;
     font-size: 16px;
+    width: 525px;
+}
+
+.searchbutton-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 button.searchbutton {
@@ -246,7 +254,7 @@ body, input, button {
     width: 100%;
 }
 
-#footer-bar {
+#footer-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -263,8 +271,17 @@ body, input, button {
     justify-content: space-between;
 }
 
-#footer-bar .footer-item a {
+#footer-nav .footer-item a {
     text-decoration: none;
     color: #70757a;
 }
 
+
+nav.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d3d3d340;
+}
