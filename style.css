@@ -49,11 +49,25 @@ ul li {
 
 ul.left-nav {
     display: flex;
-    margin: 5px 5px 5px 5px;
+    margin: -20px;
     justify-content: flex-start;
     flex-direction: row;
     margin-left: 26px;
     margin-top: -9px;
+}
+
+ul#footer-left {
+    margin: 0;
+    padding-left: 30px;
+    color: gray;
+    font-size: 14px;
+}
+
+ul#footer-right {
+    margin-top: 0px;
+    padding-right: 20px;
+    color: gray;
+    font-size: 14px;
 }
 
 ul.right-nav {
@@ -203,7 +217,7 @@ input.searchinput {
     margin-left: 35px;
     height: 34px;
     font-size: 16px;
-    width: 525px;
+    width: 500px;
 }
 
 .searchbutton-area {
@@ -284,4 +298,5 @@ nav.footer-nav {
     flex-direction: row;
     align-items: center;
     background-color: #d3d3d340;
+    padding: 20px;
 }
